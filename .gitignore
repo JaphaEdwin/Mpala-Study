@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+.npm-cache/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+
+# Package manager locks (Yarn only - keep yarn.lock, ignore npm)
+package-lock.json
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native build outputs
+ios/
+android/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Metro bundler
+.metro-health-check*
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*~
+
+# macOS
+.DS_Store
+*.pem
+
+# Testing
+coverage/
+
+# Temporary files
+*.log
+tmp/
+temp/
+
+# EAS
+.eas/
