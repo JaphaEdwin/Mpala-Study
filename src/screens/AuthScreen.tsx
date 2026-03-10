@@ -435,34 +435,4 @@ const styles = StyleSheet.create({
 });
 
 export default AuthScreen;
-    fontWeight: "900",
-    marginTop: 14,
-    color: tokens.color.text,
-    letterSpacing: 0.5,
-  },
-  subtitle: {
-    marginTop: 8,
-    fontSize: 14,
-    color: tokens.color.textMuted,
-    textAlign: "center",
-    maxWidth: 320,
-    lineHeight: 20,
-  },
-  card: {
-    backgroundColor: tokens.color.surface2,
-    borderColor: tokens.color.border,
-    borderWidth: 1,
-    borderRadius: tokens.radius.lg,
-    padding: 16,
-  },
-  footnote: {
-    marginTop: 14,
-    textAlign: "center",
-    color: "rgba(167,176,192,0.75)",
-    fontSize: 12,
-    lineHeight: 18,
-  },
-});
-
-export default AuthScreen;
 
