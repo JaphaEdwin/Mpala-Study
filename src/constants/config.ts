@@ -4,7 +4,7 @@ import Constants from "expo-constants";
 export const API_URL =
   Constants.expoConfig?.extra?.apiUrl ||
   process.env.EXPO_PUBLIC_API_URL ||
-  "http://localhost:8000";
+  "https://mpala-study-backend-production.up.railway.app";
 
 // App Environment
 export const APP_ENV =
